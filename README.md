@@ -17,5 +17,5 @@ firebase deploy -m "Deploying the best new feature ever."
 
 ## Dev Dependencies:
 ```bash
-npm nodemon
+npm i nodemon
 ```
