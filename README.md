@@ -3,7 +3,7 @@
 ## Dependencies:
 ```bash
 npm init --yes
-npm install express mongodb cors body-parser dotenv
+npm i express mongodb mongoose cors body-parser dotenv
 ```
 
 ## Dev Dependencies:
