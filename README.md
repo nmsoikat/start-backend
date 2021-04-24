@@ -1,3 +1,26 @@
+# Start Front-End
+```bash
+# react app
+npx create-react-app myApp
+
+# install bootstrap and router
+npm i bootstrap reactstrap react-router-dom
+
+#implement bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'reactstrap';
+
+# install font-awesome
+npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+# implement font-awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+const element = <FontAwesomeIcon icon={faCoffee} />
+
+```
+
+
 # Server Side Packages
 
 ## Dependencies:
