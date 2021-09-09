@@ -32,7 +32,7 @@ import firebase from "firebase";
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 } else {
-  firebase.app(); // if already initialized, use that one
+  firebase.app(); // if already initialized, use this one
 }
 
 
